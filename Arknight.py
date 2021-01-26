@@ -4,12 +4,8 @@ import concurrent.futures
 import requests
 import threading
 import time
-from system_hotkey import SystemHotkey
-import sys
 
 def automate_progress():
-    hk = SystemHotkeys()
-    hk.register(('control', '-'), callback=sys.exit())
     r.init(visual_automation = True, chrome_browser = False)
     try:
         while True:
