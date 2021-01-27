@@ -1,8 +1,5 @@
 
 import rpa as r
-import concurrent.futures
-import requests
-import threading
 import time
 
 def automate_progress():
